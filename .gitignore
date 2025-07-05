@@ -1,0 +1,70 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.*
+
+# Coverage reports
+coverage/
+*.lcov
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: macOS system files
+.AppleDouble
+.LSOverride
+
+# Optional: Windows system files
+ehthumbs.db
+Desktop.ini
+
+# Optional: Linux system files
+*~
+
+# Ignore Markdown knowledge extraction outputs (if any)
+extracted_markdown/
+knowledge_data/
+
+# Ignore temporary files
+tmp/
+temp/
+*.tmp
+
+# Ignore optional backup files
+*.bak
+*.swp
+*.swo
+
+# Optional: Ignore Python cache if any scripts are used
+__pycache__/
+*.py[cod]
+
+# Optional: Ignore export or import artifacts
+*.exported.*
+*.imported.*
+
+# Optional: Ignore web scraping temporary files
+scraped_html/
